@@ -1,0 +1,19 @@
+### 3.1 Were data for this outcome available for all, or nearly all, participants randomised?
+
+- Intention-to-Treat (ITT) analysis is applicable to situations where all randomized study participants can be included in the analysis. Note: Imputed data are also classified as missing data and are not considered 'outcome data' in this item.
+- NI: No mention is made in the original text of the extent of missing outcome data; such cases generally carry a high risk of bias due to missing outcome data.
+- 'Nearly all' study participants means a small number of study participants with missing outcomes—regardless of the outcome status of these missing participants, it does not affect the direction of the estimated intervention effect. For continuous variables, if 95% (or 90%) of study participants have available outcome data, this can be considered sufficient. If the outcome is a dichotomous variable, this proportion is related to the probability of the outcome event occurring. If the number of study participants with the outcome event is much larger than the number of those with missing outcome data, only a small degree of bias is introduced.
+
+### 3.2 If N/PN/NI to 3.1: Is there evidence that the result was not biased by missing outcome data?
+
+- NA: If not N/PN/NI to 3.1
+- Such evidence includes: ① the use of appropriate analytical methods to adjust for bias; ② the results of sensitivity analysis indicate that, in the context of missing outcomes, the difference between the analytical results and the true results is limited to an acceptable small range. However, when imputing outcome variables, neither the 'Last Observation Carried Forward (LOCF)' method nor multiple imputation based solely on the intervention group is an effective method to remedy the bias caused by missing outcomes.
+
+### 3.3 If N/PN to 3.2: Could missingness in the outcome depend on its true value?
+
+- If loss to follow-up or withdrawal from the trial is due to participants’ health status, the missing outcome variables are highly likely to be associated with the outcome itself. If all missing outcome variables are not associated with the outcome itself, the risk of bias caused by missing data is low (e.g., measurement instrument failure, interruption of data collection, etc.).
+
+### 3.4 If Y/PY/NI to 3.3: Is it likely that missingness in the outcome depended on its true value?
+
+- This question is classified into the following two scenarios: ① If missing outcomes are potentially associated with the outcome itself, it is classified as 'some concerns'; ② If missing outcome variables are highly likely to be associated with the outcome itself, it is classified as 'high concerns'.
+- For 'high concerns', the answer is 'Y' if the following situations occur: ① The most likely reason for differences in the proportion of missing outcomes between the two groups is that the missing outcome variables are associated with the outcome itself; ② The reported reasons for missing outcome variables indicate an association with the outcome itself; ③ The reported reasons for missing outcome variables differ between the two groups; ④ The actual circumstances of the study result in missing outcome variables being highly likely to be associated with the outcome itself. For example: The main reason for withdrawal from schizophrenia-related studies is the patients’ subsequent symptoms.

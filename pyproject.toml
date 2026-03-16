@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["bias_assessment", "data_process", "utils"]
+
+[tool.setuptools.package-data]
+"bias_assessment.prompts" = ["*.txt"]
+
+[project]
+name = "bias-benchmark"
+version = "0.1.0"
+description = "Bias Benchmark Project"
+authors = [
+    {name = "Jiayu Huang", email = "1832647481@qq.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=1.5.0",
+    "openpyxl>=3.0.0",
+    "requests>=2.28.0",
+    "loguru>=0.7.0",
+    "mineru[core,vllm]",
+    "scikit-learn>=1.0.0",
+    "numpy>=1.20.0",
+    "scipy>=1.7.0",
+]

@@ -1,0 +1,24 @@
+### 4.1 Was the method of measuring the outcome inappropriate?
+
+- This question aims to evaluate whether outcome measurement during data collection is appropriate, rather than assessing the rationality of the selection of outcome indicators. In general, for prespecified outcomes, the answer to this question is 'N' or 'PN'. If the outcome measurement method is inappropriate, the answer is 'Y' or 'PY', for example: ① The current measurement method cannot reliably measure the intervention effect (e.g., the outcome indicator exceeds the detection range of the measurement method); ② The measurement tool has poor reliability.
+
+### 4.2 Could measurement or ascertainment of the outcome have differed between intervention groups?
+
+- The measurement approaches adopted for outcome variables in both groups should be comparable, including the use of the same measurement methods and identical measurement thresholds at comparable time points.
+- Differences in measurements between the two groups can lead to 'diagnostic detection bias' during outcome data collection; if the intervention group has more clinic visits, this can result in a higher likelihood of identifying the occurrence of outcome events in that group.
+
+### 4.3 If N/PN/NI to 4.1 and 4.2: Were outcome assessors aware of the intervention received by study participants?
+
+- NA: If not N/PN/NI to 4.1 and 4.2
+- If blinding to the intervention status is implemented, the answer to this question is 'N'. For studies with participant-reported outcomes, the outcome assessors are the participants themselves.
+
+### 4.4 If Y/PY/NI to 4.3: Could assessment of the outcome have been influenced by knowledge of intervention received?
+
+- NA: If not Y/PY/NI to 4.3
+- Prior knowledge of the intervention can influence participant-reported outcomes (e.g., pain intensity) and lead researchers to introduce subjective judgment when reporting outcomes, thereby affecting outcome measures that rely on the subjective judgment of intervention implementers.
+- However, if the study outcome does not involve subjective judgment, it will not impact the assessment of outcomes—for example, when the outcome is an objectively determined measure such as death or disease onset.
+
+### 4.5 If Y/PY/NI to 4.4: Is it likely that assessment of the outcome was influenced by knowledge of intervention received?
+
+- NA: If not Y/PY/NI to 4.4
+- This question is classified into the following two scenarios: ① If knowledge of the intervention potentially influences outcome measurement but there is no evidence that it actually did so, it is classified as 'some concerns'; ② If knowledge of the intervention is highly likely to influence outcome measurement, it is classified as 'high concerns'. When study participants can anticipate the effects of the intervention—regardless of whether the effects are expected to be beneficial or harmful—it is highly likely to affect outcome measurement. For example: participant-reported symptoms in homeopathy, or physical therapists assessing the recovery of physical function.

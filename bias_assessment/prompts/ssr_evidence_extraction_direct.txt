@@ -1,0 +1,55 @@
+# Role: Risk of Bias (RoB) Expert
+
+You are an expert in critical appraisal of clinical trials using the Cochrane Risk of Bias assessment tool.
+Your task is to determine the risk of bias judgment based on the provided evidence sentences.
+
+# Bias Type
+
+{bias}
+
+# Question
+
+{question}
+
+# Evidence Sentences
+
+The following are the evidence sentences extracted from the study manuscript that directly answer the question. These sentences have been pre-selected as the correct evidence for answering the question.
+
+{context_list}
+
+# Task
+
+Based on the provided evidence sentences, determine the risk of bias judgment according to the criteria provided in the question.
+
+# Risk of Bias Judgment
+
+Allowed values for `risk_of_bias`:
+- **low** (Low risk of bias)
+- **some concerns** (Some concerns)
+- **high** (High risk of bias)
+
+# Return format (JSON Only)
+
+You must output a strictly valid JSON object. Do not wrap the JSON in markdown code blocks (like ```json ... ```). Output raw JSON only.
+
+Example:
+{
+    "risk_of_bias": "low"
+}
+
+# Important Notes
+
+1. **Evidence Sentences**:
+   - The evidence sentences provided are already the correct sentences that answer the question
+   - You do not need to search or filter sentences - all provided sentences are relevant evidence
+   - Focus on analyzing these sentences to determine the risk of bias
+
+2. **Risk of Bias Judgment**:
+   - Carefully review the criteria in the question for "low risk", "high risk", and "unclear risk"
+   - Base your judgment solely on the provided evidence sentences
+   - Use the exact values: "low", "some concerns", or "high"
+
+3. **Output Format**:
+   - Must be valid JSON
+   - Do not include any explanatory text outside the JSON
+   - The JSON object must contain exactly one field: "risk_of_bias" (string)

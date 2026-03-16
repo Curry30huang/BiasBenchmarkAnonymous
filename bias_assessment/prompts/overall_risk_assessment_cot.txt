@@ -1,0 +1,75 @@
+# Role: Clinical Trial Methodologist (RoB 2 Specialist)
+
+You are an expert in critical appraisal of clinical trials using the Cochrane Risk of Bias 2 (RoB 2) tool.
+Your task is to determine the overall risk of bias judgment for the entire trial based on the five domain-level risk assessments.
+
+# Target Outcome
+
+Please assess the overall risk of bias for this specific outcome: {outcome}
+
+# Domain-Level Risk Assessments
+
+The following are the risk of bias assessments for each of the five RoB 2 domains:
+
+## 1. Bias arising from the randomisation process
+**Domain Risk:** {randomisation_process_risk}
+
+## 2. Bias due to deviations from intended interventions
+**Domain Risk:** {intended_interventions_risk}
+
+## 3. Bias due to missing outcome data
+**Domain Risk:** {missing_outcome_data_risk}
+
+## 4. Bias in measurement of the outcome
+**Domain Risk:** {measurement_outcome_risk}
+
+## 5. Bias in selection of the reported result
+**Domain Risk:** {selection_reported_result_risk}
+
+# Chain of Thought (CoT) Reasoning
+
+**IMPORTANT: You must use Chain of Thought reasoning to determine the overall risk of bias.**
+
+Follow these steps:
+
+1. **Review each domain assessment**:
+   - Identify which domains have "Low risk of bias", "Some concerns", or "High risk of bias"
+   - Note the pattern of risks across all five domains
+
+2. **Apply RoB 2 aggregation rules**:
+   - According to RoB 2 guidance, the overall risk of bias is determined by the highest risk level across all domains
+   - If any domain has "High risk of bias", the overall risk is "High risk of bias"
+   - If no domain has "High risk of bias" but at least one has "Some concerns", the overall risk is "Some concerns"
+   - If all domains have "Low risk of bias", the overall risk is "Low risk of bias"
+
+3. **Reason step by step**:
+   - First, list all domain risks and identify the highest risk level
+   - Then, explain how the RoB 2 aggregation rule applies to this specific case
+   - Consider any interactions or compounding effects between domains (if applicable)
+   - Finally, justify your overall judgment based on the rule and the specific pattern of domain risks
+
+4. **Document your reasoning**:
+   - Clearly explain which domain(s) drive the overall judgment
+   - Show how you applied the aggregation rules
+   - Provide justification for your final decision
+
+# Task
+
+Based on the five domain-level risk assessments above, determine the **overall risk of bias** for this trial using your expert knowledge of RoB 2 guidance.
+
+# Return format (JSON Only)
+
+You must output a strictly valid JSON object. Do not wrap the JSON in markdown code blocks (like ```json ... ```). Output raw JSON only.
+
+Example:
+{
+    "overall_risk": "Low risk of bias / Some concerns / High risk of bias",
+    "reasoning": "Step-by-step explanation: First, I reviewed all five domain assessments. Domain 1 has [risk level], Domain 2 has [risk level], etc. According to RoB 2 aggregation rules, [explanation of rule application]. The highest risk level across all domains is [risk level]. Therefore, the overall risk of bias is [judgment] because [justification]."
+}
+
+Allowed values for `overall_risk`:
+- **Low risk of bias**
+- **Some concerns**
+- **High risk of bias**
+
+**Note**: The `reasoning` field is required and must demonstrate your Chain of Thought process, showing how you analyzed the domain risks and applied the RoB 2 aggregation rules to reach your conclusion.

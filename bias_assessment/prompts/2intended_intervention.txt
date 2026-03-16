@@ -1,0 +1,35 @@
+### 2.1 Were participants aware of their assigned intervention during the trial?
+
+- N:Study participants were blinded (e.g., with a placebo).
+- Y/PY: Study participants were able to determine which intervention group they belonged to through adverse reactions or other means.
+
+### 2.2 Were carers and people delivering the interventions aware of participants' assigned intervention during the trial?
+
+- N: Healthcare providers were blinded (e.g., with a placebo).
+- Y/PY: Healthcare providers were able to determine which intervention group study participants belonged to through adverse reactions or other means; if the randomization protocol lacked allocation concealment, healthcare providers were highly likely to be aware of the participants’ group assignment.
+
+### 2.3 If Y/PY/NI to 2.1 or 2.2: Were there deviations from the intended intervention that arose because of the trial context?
+
+- NA: If not Y/PY/NI to 2.1 or 2.2
+- Y: Study participants perceived being assigned to the control group as 'unfortunate' and thus sought the same intervention as the intervention group or other interventions. Because participants had different expectations for the intervention group and control group, and the bias caused by these differing expectations is not part of routine medical practice, the evaluation of intervention effects fails to reflect the true effect of the intervention in practical settings.
+- N/PN: Deviations occurring in the trial also occur in routine medical practice. Examples include: ① discontinuation of medication due to adverse drug reactions; ② non-adherence to the intervention; ③ 'concomitant interventions' implemented in response to intervention outcomes. Blinding cannot be implemented in trials where certain interventions have specific adverse reactions. In such cases, this item is judged as 'N' or 'PN' unless the deviation in the intervention method is related to the trial content.
+- Termination of the intervention or crossing over to another group caused by adverse reactions is generally not considered a deviation from the prespecified intervention. If researchers do not report whether the deviation is related to the trial content, the answer should be 'NI'; however, if it can be judged that deviations related to the trial content are highly likely to have occurred, the answer should be 'PY'.
+
+### 2.4 If Y/PY/NI to 2.3: Were these deviations likely to have affected the outcome?
+
+- NA: If not Y/PY/NI to 2.3
+- If the deviation from the predetermined intervention is unrelated to routine medical practice, and the deviation between groups affects the outcome, this should be taken seriously.
+
+### 2.5 If Y/PY to 2.4: Were these deviations from intended intervention balanced between groups?
+
+- NA: If not Y/PY to 2.4
+- If the deviation from the established intervention is unrelated to routine medical practice (2.3 answer "Y/PY"), and there are differences in deviation between groups, this should be taken seriously.
+
+### 2.6 Was an appropriate analysis used to estimate the effect of assignment to intervention?
+
+- It is considered reasonable to exclude study participants with missing outcome data when applying Intention-to-Treat (ITT) analysis and Modified Intention-to-Treat (mITT) analysis. Inappropriate analytical methods include 'as treated' analysis and 'per-protocol' analysis. When re-grouping after randomization, eligible study participants should not be excluded, but ineligible participants may be excluded.
+- If a participant is found post-randomization to have been ineligible at baseline—either by failing to meet inclusion criteria or meeting exclusion criteria—it is methodologically acceptable to completely remove them from the analysis. This practice implies treating such participants as if they were never randomized and does not introduce bias.
+
+### 2.7 If N/PN/NI to 2.6: Was there potential for a substantial impact (on the result) of the failure to analyse participants in the group to which they were randomised?
+
+- This question primarily focuses on whether the failure to analyze according to the prespecified randomized grouping or the number of study participants not included in the analysis is sufficient to have a significant impact on the results. There is no clear definition of the specific number: when the outcome is a rare event or misclassification is associated with prognostic factors, even if fewer than 5% of study participants are analyzed in the incorrect group, it may still have an impact on the outcome.
